@@ -13,7 +13,7 @@ AccountsTemplates.configure({
   //forbidClientAccountCreation: true,
   //formValidationFeedback: true,
   //homeRoutePath: '/',
-  //showAddRemoveServices: false,
+  showAddRemoveServices: true,
   //showPlaceholders: true,
 
   negativeValidation: true,

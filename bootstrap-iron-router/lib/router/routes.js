@@ -14,10 +14,11 @@ Router.map(function() {
     });
 
     this.route('private');
+    this.route('services');
 });
 
 Router.plugin('ensureSignedIn', {
-  only: ['private']
+  only: ['private', 'services']
 });
 
 //Routes
